@@ -1,0 +1,75 @@
+
+#plt.scatter(0.0739089282*24,0.132,marker='o',color='g',s=10)
+#plt.errorbar(0.0739089282*24,0.132,yerr=[[0.015],[0.005]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0739089282*24,0.132,'  IY UMa_kg5(GPs)',color='g',size=12)
+
+#plt.scatter(0.0744992631*24,0.130,marker='o',color='g',s=10)
+#plt.errorbar(0.0744992631*24,0.130,yerr=[[0.002],[0.015]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0744992631*24,0.130,'  Z Cha_g(GPs)',color='g',size=12)
+
+#plt.scatter(0.0858526521*24,0.173,marker='o',color='g',s=10)
+#plt.errorbar(0.0858526521*24,0.173,yerr=[[0.010],[0.012]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0858526521*24,0.173,'  DV UMa_g(GPs)',color='g',size=12)
+
+#plt.scatter(0.088940717*24,0.173,marker='o',color='g',s=10)
+#plt.errorbar(0.088940717*24,0.173,yerr=[[0.008],[0.005]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.088940717*24,0.173,'  CTCV 1300_g(GPs)',color='g',size=12)
+
+
+#plt.scatter(0.0719308073*24,0.129,marker='o',color='g',s=10)
+#plt.errorbar(0.0719308073*24,0.129,yerr=[[0.007],[0.008]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0719308073*24,0.129,'  OGLE 82',color='g',size=12)
+
+#plt.scatter(0.074326968*24,0.128,marker='o',color='g',s=10)
+#plt.errorbar(0.074326968*24,0.128,yerr=[[0.008],[0.006]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.074326968*24,0.128,'  ASASSN-14hq(GPs)',color='g',size=12)
+
+#plt.scatter(0.09328967*24,0.165,marker='o',color='g',s=10)
+#plt.errorbar(0.09328967*24,0.165,yerr=[[0.015],[0.018]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.09328967*24,0.165,'  ASASSN-15pb(GPs)',color='g',size=12)
+
+#plt.scatter(0.07461448*24,0.102,marker='o',color='g',s=10)
+#plt.errorbar(0.07461448*24,0.102,yerr=[[0.008],[0.009]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.07461448*24,0.102,'  AY For(GPs)',color='g',size=12)
+
+#plt.scatter(0.0715286*24,0.182,marker='o',color='g',s=10)
+#plt.errorbar(0.0715286*24,0.182,yerr=[[0.024],[0.016]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0715286*24,0.182,'  MASOT0014(GPs)',color='g',size=12)
+
+#plt.scatter(0.0583110901*24,0.095,marker='o',color='g',s=10)
+#plt.errorbar(0.0583110901*24,0.095,yerr=0.005,ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0583110901*24,0.095,'  SDSS0748',color='g',size=12)
+
+#plt.scatter(0.059073543*24,0.089,marker='o',color='g',s=10)
+#plt.errorbar(0.059073543*24,0.089,yerr=[[0.004],[0.005]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.059073543*24,0.089,'      SDSS 0903_new',color='g',size=12)
+
+#plt.scatter(0.0570067*24,0.05198,marker='o',color='g',s=10)
+#plt.errorbar(0.0570067*24,0.05198,yerr=[[0.0017],[0.0029]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0570067*24,0.05198,'  SDSS 1035_new',color='g',size=12)
+
+#plt.scatter(0.054240679*24,0.0635,marker='o',color='g',s=10)
+#plt.errorbar(0.054240679*24,0.0635,yerr=[[0.0013],[0.0019]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.054240679*24,0.0635,'  SDSS 1433_new',color='g',size=12)
+
+#plt.scatter(0.1582061029*24,0.49,marker='o',color='r',s=10,alpha=0.3)
+#plt.errorbar(0.1582061029*24,0.49,yerr=0.05,ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.1582061029*24,0.49,'  IP Peg_new',color='b',size=12,alpha=0.3)
+
+
+#From Yakin10 (RV & md from porb) -- don't use
+#plt.scatter(0.070037*24,0.14,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.070037*24,0.14,yerr=0.02,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.070037*24,0.14,'  1RXS J180834.7+101041',color='b',size=12,alpha=0.3)
+
+#From Mason&Howell05 (RV) (Error bars not given in paper) -- don't use
+#plt.scatter(0.07460*24,0.17,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.07460*24,0.17,yerr=0.05,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.07460*24,0.17,'  AY For',color='b',size=12,alpha=0.3)
+
+#From Smith06 (wd mass from gravitational redshift & q from epsilon) -- don't use
+#plt.scatter(0.074271*24,0.11,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.074271*24,0.11,yerr=0.03,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.074271*24,0.11,'  VW Hyi',color='b',size=12,alpha=0.3)
+
+

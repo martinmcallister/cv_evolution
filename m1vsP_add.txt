@@ -1,0 +1,90 @@
+
+#plt.scatter(0.0627919557*24,0.807,marker='o',color='r',s=10)
+#plt.errorbar(0.0627919557*24,0.807,yerr=[[0.014],[0.013]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0627919557*24,0.807,'  SDSS1057(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0587045*24,0.874,marker='o',color='r',s=10)
+#plt.errorbar(0.0587045*24,0.874,yerr=[[0.024],[0.019]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0587045*24,0.874,'  SSS100615(noGPs)',color='r',size=12)
+
+#plt.scatter(0.060310649*24,0.722,marker='o',color='r',s=10)
+#plt.errorbar(0.060310649*24,0.722,yerr=[[0.011],[0.017]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.060310649*24,0.722,'  ASASSN-14ag(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0660508707*24,1.024,marker='o',color='r',s=10)
+#plt.errorbar(0.0660508707*24,1.024,yerr=[[0.024],[0.024]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0660508707*24,1.024,'  CSS110113(noGPs)',color='r',size=12)
+
+#plt.scatter(0.059578970*24,0.752,marker='o',color='r',s=10)
+#plt.errorbar(0.059578970*24,0.752,yerr=[[0.014],[0.019]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.059578970*24,0.752,'  CSS080623(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0778805320*24,0.801,marker='o',color='r',s=10)
+#plt.errorbar(0.0778805320*24,0.801,yerr=[[0.026],[0.019]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0778805320*24,0.801,'  SDSS 0901(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0739089282*24,0.961,marker='o',color='r',s=10)
+#plt.errorbar(0.0739089282*24,0.961,yerr=[[0.024],[0.013]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0739089282*24,0.961,'  IY UMa(noGPs)',color='r',size=12)
+
+#plt.scatter(0.065769292*24,0.904,marker='o',color='r',s=10)
+#plt.errorbar(0.065769292*24,0.904,yerr=[[0.018],[0.010]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.065769292*24,0.904,'  SSS130413(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0744992631*24,0.779,marker='o',color='r',s=10)
+#plt.errorbar(0.074499315*24,0.779,yerr=[[0.003],[0.007]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.074499315*24,0.779,'  Z Cha(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0858526521*24,1.098,marker='o',color='r',s=10)
+#plt.errorbar(0.0858526521*24,1.098,yerr=[[0.021],[0.017]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0858526521*24,1.098,'  DV UMa(noGPs)',color='r',size=12)
+
+#plt.scatter(0.088940717*24,0.711,marker='o',color='r',s=10)
+#plt.errorbar(0.088940717*24,0.711,yerr=[[0.006],[0.010]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.088940717*24,0.711,'  CTCV 1300(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0631209221*24,0.834,marker='o',color='r',s=10)
+#plt.errorbar(0.0631209221*24,0.834,yerr=[[0.007],[0.006]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0631209221*24,0.834,'  OY Car(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0677497026*24,0.58,marker='o',color='r',s=10)
+#plt.errorbar(0.0677497026*24,0.58,yerr=[[0.03],[0.03]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0677497026*24,0.58,'  SDSS 1152(noGPs)',color='r',size=12)
+
+#plt.scatter(0.0568412623*24,0.681,marker='o',color='r',s=10)
+#plt.errorbar(0.0568412623*24,0.681,yerr=[[0.015],[0.014]],ls='none',color='r',capsize=3,linewidth=1)
+#plt.text(0.0568412623*24,0.681,'  SDSS 1501(noGPs)',color='r',size=12)
+
+plt.scatter(0.0719308073*24,0.83,marker='o',color='g',s=10)
+plt.errorbar(0.0719308073*24,0.83,yerr=[[0.04],[0.04]],ls='none',color='g',capsize=3,linewidth=1)
+plt.text(0.0719308073*24,0.83,'  OGLE 82',color='g',size=12)
+
+plt.scatter(0.0932914*24,0.74,marker='o',color='g',s=10)
+plt.errorbar(0.0932914*24,0.74,yerr=[[0.04],[0.06]],ls='none',color='g',capsize=3,linewidth=1)
+plt.text(0.0932914*24,0.74,'  ASASSN-15pb(GPs)',color='g',size=12)
+
+plt.scatter(0.0715286*24,0.95,marker='o',color='g',s=10)
+plt.errorbar(0.0715286*24,0.95,yerr=[[0.07],[0.05]],ls='none',color='g',capsize=3,linewidth=1)
+plt.text(0.0715286*24,0.95,'  MASOT0014(GPs)',color='g',size=12)
+
+#plt.scatter(0.06242785751*24,0.86,marker='o',color='orange',s=10)
+#plt.errorbar(0.06242785751*24,0.86,yerr=[[0.07],[0.03]],ls='none',color='orange',capsize=3,linewidth=1)
+#plt.text(0.06242785751*24,0.86,'  V2051 Oph',color='orange',size=12)
+
+#plt.scatter(0.0736471745*24,0.74,marker='o',color='orange',s=10)
+#plt.errorbar(0.0736471745*24,0.74  ,yerr=0.07,ls='none',color='orange',capsize=3,linewidth=1)
+#plt.text(0.0736471745*24,0.74,' HT Cas ',color='orange',size=12)
+
+#plt.scatter(0.1582061029*24,1.14,marker='o',color='r',s=10,alpha=0.3)
+#plt.errorbar(0.1582061029*24,1.14,yerr=0.1,ls='none',color='r',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.1582061029*24,1.14,'  IP Peg',color='b',size=12,alpha=0.3)
+
+#From Mason&Howell05 (RV) (Error bars not given in paper) -- don't use
+#plt.scatter(0.07460*24,0.64,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.07460*24,0.64,yerr=0.10,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.07460*24,0.64,'  AY For',color='b',size=12,alpha=0.3)
+
+#From Yakin10 (RV & md from porb) -- only use for m1
+plt.scatter(0.070037*24,0.80,marker='o',color='b',s=10,alpha=0.3)
+plt.errorbar(0.070037*24,0.80,yerr=0.22,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.070037*24,0.80,'  1RXS J180834.7+101041_Y10',color='b',size=12,alpha=0.3)

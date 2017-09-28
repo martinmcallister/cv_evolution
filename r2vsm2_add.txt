@@ -1,0 +1,386 @@
+### RADII FROM VARIOUS PERIOD-DENSITY RELATIONS
+
+
+############# PHL 1445 paper ##############
+
+
+#plt.scatter(0.064,0.109,marker='o',color='k',s=10)
+#plt.errorbar(0.064,0.109,xerr=0.005,yerr=0.004,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.063,0.109,'  PHL 1445',color='k',size=12)
+
+
+############ DONE (with GPs) ##############
+
+
+plt.scatter(0.071,0.113,marker='o',color='g',s=10)
+plt.errorbar(0.071,0.113,xerr=[[0.005],[0.009]],yerr=[[0.003],[0.004]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.071,0.113,'  PHL 1445',color='g',size=12)
+
+plt.scatter(0.109,0.142,marker='o',color='g',s=10)
+plt.errorbar(0.109,0.142,xerr=[[0.013],[0.012]],yerr=[[0.007],[0.004]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.109,0.142,'  ASASSN-14ag',color='g',size=12)
+
+plt.scatter(0.141,0.1770,marker='o',color='g',s=10)
+plt.errorbar(0.141,0.1770,xerr=[[0.007],[0.007]],yerr=[[0.0029],[0.0027]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.141,0.1770,'  IY UMa',color='g',size=12)
+
+plt.scatter(0.152,0.1820,marker='o',color='g',s=10)
+plt.errorbar(0.152,0.1820,xerr=[[0.005],[0.006]],yerr=[[0.0019],[0.0021]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.152,0.1820,'  Z Cha',color='g',size=12)
+
+plt.scatter(0.081,0.1275,marker='o',color='g',s=10)
+plt.errorbar(0.081,0.1275,xerr=[[0.005],[0.005]],yerr=[[0.0024],[0.0024]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.081,0.1275,'  CSS080623',color='g',size=12)
+
+plt.scatter(0.138,0.182,marker='o',color='g',s=10)
+plt.errorbar(0.138,0.182,xerr=[[0.007],[0.007]],yerr=[[0.003],[0.003]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.138,0.182,'  SDSS 0901',color='g',size=12)
+
+plt.scatter(0.187,0.215,marker='o',color='g',s=10)
+plt.errorbar(0.187,0.215,xerr=[[0.012],[0.003]],yerr=[[0.005],[0.001]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.187,0.215,'  DV UMa',color='g',size=12)
+
+plt.scatter(0.166,0.2111,marker='o',color='g',s=10)
+plt.errorbar(0.166,0.2111,xerr=[[0.003],[0.006]],yerr=[[0.0014],[0.0025]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.166,0.2111,'  CTCV 1300',color='g',size=12)
+
+plt.scatter(0.093,0.1388,marker='o',color='g',s=10)
+plt.errorbar(0.093,0.1388,xerr=[[0.001],[0.003]],yerr=[[0.0003],[0.0018]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.093,0.1388,'  OY Car',color='g',size=12)
+
+plt.scatter(0.140,0.163,marker='o',color='g',s=10)
+plt.errorbar(0.140,0.163,xerr=[[0.008],[0.012]],yerr=[[0.003],[0.004]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.140,0.163,'  SSS130413',color='g',size=12)
+
+plt.scatter(0.105,0.149,marker='o',color='g',s=10)
+plt.errorbar(0.105,0.149,xerr=[[0.006],[0.008]],yerr=[[0.003],[0.004]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.105,0.149,'  CSS110113',color='g',size=12)
+
+plt.scatter(0.083,0.1276,marker='o',color='g',s=10)
+plt.errorbar(0.083,0.1276,xerr=[[0.004],[0.006]],yerr=[[0.0024],[0.0028]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.083,0.1276,'  SSS100615',color='g',size=12)
+
+plt.scatter(0.094,0.147,marker='o',color='g',s=10)
+plt.errorbar(0.094,0.147,xerr=[[0.009],[0.016]],yerr=[[0.006],[0.007]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.094,0.147,'  SDSS 1152',color='g',size=12)
+
+plt.scatter(0.0436,0.1086,marker='o',color='g',s=10)
+plt.errorbar(0.0436,0.1086,xerr=[[0.0017],[0.0025]],yerr=[[0.0015],[0.0019]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0436,0.1086,'  SDSS1057',color='g',size=12)
+
+plt.scatter(0.37,0.457,marker='o',color='g',s=10)
+plt.errorbar(0.37,0.457,xerr=[[0.06],[0.06]],yerr=[[0.026],[0.022]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.37,0.457,'  SDSS 1006',color='g',size=12)
+
+plt.scatter(0.394,0.446,marker='o',color='g',s=10)
+plt.errorbar(0.394,0.446,xerr=[[0.022],[0.016]],yerr=[[0.009],[0.006]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.394,0.446,'  GY Cnc',color='g',size=12)
+
+plt.scatter(0.176,0.208,marker='o',color='g',s=10)
+plt.errorbar(0.176,0.208,xerr=[[0.018],[0.007]],yerr=[[0.005],[0.002]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.176,0.208,'  V713 Cep',color='g',size=12)
+
+plt.scatter(0.061,0.1129,marker='o',color='g',s=10)
+plt.errorbar(0.061,0.1129,xerr=[[0.003],[0.004]],yerr=[[0.0016],[0.0025]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.061,0.1129,'  SDSS 1501',color='g',size=12)
+
+
+######### IN LITERATURE ################
+
+
+# HIGH TIME RESOLUTION ECLIPSE MODELLING (circles)
+
+'''
+# Systems from Savoury 11 that have been revisited
+
+#plt.scatter(0.098,0.1382,marker='o',color='k',s=10,alpha=0.25)
+#plt.errorbar(0.098,0.1382,xerr=0.003,yerr=0.0014,ls='none',color='k',capsize=3,linewidth=1,alpha=0.25)
+#plt.text(0.095,0.1382,'  CSS080623',color='k',size=12,alpha=0.25)
+
+#plt.scatter(0.161,0.1949,marker='o',color='k',s=10,alpha=0.25)
+#plt.errorbar(0.161,0.1949,xerr=0.007,yerr=0.0028,ls='none',color='k',capsize=3,linewidth=1,alpha=0.25)
+#plt.text(0.162,0.1949,'  SDSS 0901',color='k',size=12,alpha=0.25)
+
+#plt.scatter(0.177,0.215,marker='o',color='k',s=10)
+#plt.errorbar(0.177,0.215,xerr=0.021,yerr=0.008,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.177,0.215,'  CTCV J1300-3052',color='k',size=12)
+
+#plt.scatter(0.087,0.142,marker='o',color='k',s=10)
+#plt.errorbar(0.087,0.142,xerr=0.006,yerr=0.003,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.087,0.142,'  SDSS 1152',color='k',size=12)
+
+#plt.scatter(0.196,0.2176,marker='o',color='k',s=10)
+#plt.errorbar(0.196,0.2176,xerr=0.005,yerr=0.0018,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.196,0.2176,'  DV UMa',color='k',size=12)
+
+#plt.scatter(0.077,0.122,marker='o',color='k',s=10)
+#plt.errorbar(0.077,0.122,xerr=0.010,yerr=0.005,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.074,0.122,'  SDSS 1501',color='k',size=12)
+'''
+
+# Systems from Savoury 11
+
+plt.scatter(0.0571,0.1074,marker='o',color='k',s=10)
+plt.errorbar(0.0571,0.1074,xerr=0.0007,yerr=0.0004,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.0571,0.1074,'  SDSS 1433',color='k',size=12)
+
+plt.scatter(0.0575,0.0969,marker='o',color='k',s=10)
+plt.errorbar(0.0575,0.0969,xerr=0.0020,yerr=0.0011,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.0551,0.0969,'  SDSS 1507',color='k',size=12)
+
+plt.scatter(0.0475,0.1047,marker='o',color='k',s=10)
+plt.errorbar(0.0475,0.1047,xerr=0.0012,yerr=0.0008,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.0457,0.1047,'  SDSS 1035',color='k',size=12)
+
+plt.scatter(0.101,0.1463,marker='o',color='k',s=10)
+plt.errorbar(0.101,0.1463,xerr=0.003,yerr=0.0016,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.103,0.1463,' CTCV J2354-4700',color='k',size=12)
+
+plt.scatter(0.099,0.1358,marker='o',color='k',s=10)
+plt.errorbar(0.099,0.1358,xerr=0.004,yerr=0.0020,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.098,0.1358,'  SDSS 0903',color='k',size=12)
+
+plt.scatter(0.0889,0.1365,marker='o',color='k',s=10)
+plt.errorbar(0.0889,0.1365,xerr=0.0025,yerr=0.0013,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.0889,0.1365,'  SDSS 1227',color='k',size=12)
+
+plt.scatter(0.091,0.1350,marker='o',color='k',s=10)
+plt.errorbar(0.091,0.1350,xerr=0.004,yerr=0.0018,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.092,0.1350,'  XZ Eri',color='k',size=12)
+
+plt.scatter(0.0781,0.1241,marker='o',color='k',s=10)
+plt.errorbar(0.0781,0.1241,xerr=0.0008,yerr=0.0003,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.0781,0.1241,'  SDSS 1502',color='k',size=12)
+
+plt.scatter(0.1157,0.1634,marker='o',color='k',s=10)
+plt.errorbar(0.1157,0.1634,xerr=0.0022,yerr=0.0010,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.1157,0.1634,'  OU Vir',color='k',size=12)
+
+plt.scatter(0.223,0.252,marker='o',color='k',s=10)
+plt.errorbar(0.223,0.252,xerr=0.010,yerr=0.004,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(,0.223,0.252,'  SDSS 1702',color='k',size=12)
+
+'''
+# Systems from other sources that have been revisited
+
+# From Southworth09
+#plt.scatter(0.40,0.47,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.40,0.47,xerr=0.10,yerr=0.04,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.40,0.47,'  SDSS 1006_S09',color='b',size=12,alpha=0.3)
+
+'''
+
+# Other systems
+
+#From Shafter03
+plt.scatter(0.53,0.562,marker='o',color='b',s=10,alpha=0.3)
+plt.errorbar(0.53,0.562,xerr=0.01,yerr=0.004,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.53,0.562,'  EX Dra_S03',color='b',size=12,alpha=0.3)
+
+#From Littlefair14 (UCAM data)
+plt.scatter(0.39,0.432,marker='o',color='k',s=10)
+plt.errorbar(0.39,0.432,xerr=0.04,yerr=0.015,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.39,0.432,'  KIS J1927_L14',color='k',size=12)
+
+#From Copperwheat10 (UCAM data)
+plt.scatter(0.55,0.471,marker='o',color='k',s=10)
+plt.errorbar(0.55,0.471,xerr=0.02,yerr=0.006,ls='none',color='k',capsize=3,linewidth=1)
+#plt.text(0.55,0.471,'  IP Peg_C10',color='k',size=12)
+
+#From Miszalski16 (Mass overestimated due to bug in code)
+plt.scatter(0.28,0.314,marker='o',color='b',s=10,alpha=0.3)
+plt.errorbar(0.28,0.314,xerr=[[0.03],[0.03]],yerr=0.011,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.28,0.314,'  CSS111003_M16',color='b',size=12,alpha=0.3)
+
+#From Rodriguez-Gil15 (eclipse modelling)
+plt.scatter(0.47,0.430,marker='o',color='b',s=10,alpha=0.3)
+plt.errorbar(0.47,0.430,xerr=0.05,yerr=0.015,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.47,0.430,'  HS 0220+0603_RG15',color='b',size=12,alpha=0.3)
+
+#From Hernandez17 (eclipse modelling) (in agreement with RV study of echevarria)
+plt.scatter(0.58,0.683,marker='o',color='b',s=10,alpha=0.3)
+plt.errorbar(0.58,0.683,xerr=0.06,yerr=0.027,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.58,0.683,'  1RXS J064434.5+334451_H17',color='b',size=12,alpha=0.3)
+
+#From Tovmassian14 (eclipse modelling) (no errors included -- 20% errors used)
+plt.scatter(0.28,0.341,marker='o',color='b',s=10,alpha=0.3)
+plt.errorbar(0.28,0.341,xerr=0.05,yerr=0.020,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.28,0.341,'  SDSS0756+0858_T14',color='b',size=12,alpha=0.3)
+
+
+# CONTACT PHASE TIMING (squares)
+
+'''
+# Systems that have been revisited
+
+#From Steeghs03 (timing)
+#plt.scatter(0.10,0.161,marker='s',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.10,0.161,xerr=0.01,yerr=0.005,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.10,0.161,'  IY UMa_S03',color='b',size=12,alpha=0.3)
+
+#From Wood86 (timing) **Note: Values revised slightly in Wade&Horne88**
+#plt.scatter(0.083,0.1517,marker='s',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.083,0.1517,xerr=0.003,yerr=0.0018,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.083,0.1517,'  Z Cha_W86',color='b',size=12,alpha=0.3)
+
+#From Littlefair08 (Revised from Wood & Horne 1990)
+#plt.scatter(0.086,0.1375,marker='s',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.086,0.1375,xerr=0.005,yerr=0.0027,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.086,0.1375,'  OY Car_L08',color='b',size=12,alpha=0.3)
+
+#From Wood&Horne90 (timing)
+#plt.scatter(0.082,0.135,marker='s',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.082,0.135,xerr=0.004,yerr=0.002,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.082,0.135,'  OY Car_H90',color='b',size=12,alpha=0.3)
+'''
+
+#From Horne91 (timing)
+plt.scatter(0.09,0.155,marker='s',color='b',s=10,alpha=0.3)
+plt.errorbar(0.09,0.155,xerr=0.02,yerr=0.011,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.09,0.155,' HT Cas_H91',color='b',size=12,alpha=0.3)
+
+#From Baptista98 (timing)
+plt.scatter(0.15,0.164,marker='s',color='b',s=10,alpha=0.3)
+plt.errorbar(0.15,0.164,xerr=0.03,yerr=0.011,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.15,0.164,'  V2051 Oph_B98',color='b',size=12,alpha=0.3)
+
+#From Borges&Baptista05 (timing) 
+plt.scatter(0.092,0.138,marker='s',color='b',s=10,alpha=0.3)
+plt.errorbar(0.092,0.138,xerr=0.016,yerr=0.008,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.092,0.138,'  V4140 Sgr_BB05',color='b',size=12,alpha=0.3)
+
+#From Baptista00 (timing) (More accurate mass from Shafter03)
+#plt.scatter(0.54,0.57,marker='s',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.54,0.57,xerr=0.10,yerr=0.03,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.54,0.57,'  EX Dra_B00',color='b',size=12,alpha=0.3)
+
+#From Araujo-Betancour03 & Patterson05 (timing & q from epsilon)
+plt.scatter(0.21,0.310,marker='s',color='b',s=10,alpha=0.3)
+plt.errorbar(0.21,0.310,xerr=0.03,yerr=0.015,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.21,0.310,'  DW UMa_AB03',color='b',size=12,alpha=0.3)
+
+#From Baptista04 (timing)
+plt.scatter(0.20,0.34,marker='s',color='b',s=10,alpha=0.3)
+plt.errorbar(0.20,0.34,xerr=0.07,yerr=0.04,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.20,0.34,'  UU Aqr_B04',color='b',size=12,alpha=0.3)
+
+
+# RADIAL VELOCITY (triangles)
+
+'''
+# Systems that have been revisited
+
+#From Savoury12 (RV)
+#plt.scatter(0.198,0.228,marker='^',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.198,0.228,xerr=[[0.029],[0.029]],yerr=0.011,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.198,0.228,'  CTCV 1300_S12',color='b',size=12,alpha=0.3)
+
+#From Wade&Horne88 (RV) **Note: Used low value of q (0.149) from Wood86** 
+#plt.scatter(0.125,0.174,marker='^',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.125,0.174,xerr=0.014,yerr=0.006,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.125,0.174,'  Z Cha_WH88',color='b',size=12,alpha=0.3)
+
+#From Thorstensen00 (RV) **Note: Values below are with added correction, not those in abstract**
+#plt.scatter(0.33,0.43,marker='^',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.33,0.43,xerr=0.07,yerr=0.03,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.33,0.43,'  GY Cnc_T00',color='b',size=12,alpha=0.3)
+'''
+
+#From Echevarria16 (RV)
+plt.scatter(0.10,0.152,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.10,0.152,xerr=0.02,yerr=0.010,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.10,0.152,'  EX Hya_E16',color='b',size=12,alpha=0.3)
+
+#From HernandezSantisteban17 (RV) (seems an outlier as other studies favour Hernandez17)
+#plt.scatter(0.78,0.754,marker='^',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.78,0.754,xerr=0.04,yerr=0.013,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.78,0.754,'  1RXS J064434.5+334451_HS17',color='b',size=12,alpha=0.3)
+
+#From Echevarria07 (RV)
+plt.scatter(0.42,0.464,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.42,0.464,xerr=0.04,yerr=0.015,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.42,0.464,'  U Gem_E07',color='b',size=12,alpha=0.3)
+
+#From Horne93 (RV)
+plt.scatter(0.40,0.484,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.40,0.484,xerr=0.05,yerr=0.020,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.40,0.484,'  DQ Her_H93',color='b',size=12,alpha=0.3)
+
+#From Thoroughgood05 (RV)
+plt.scatter(0.52,0.596,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.52,0.596,xerr=0.06,yerr=0.023,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.52,0.596,'  V347 Pup_T05',color='b',size=12,alpha=0.3)
+
+#From Arenas00 (RV)
+plt.scatter(0.29,0.348,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.29,0.348,xerr=0.04,yerr=0.016,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.29,0.348,'  V603 Aql_A00',color='b',size=12,alpha=0.3)
+
+#From Rodriguez-Gil01 (RV)
+plt.scatter(0.20,0.251,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.20,0.251,xerr=0.04,yerr=0.017,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.20,0.251,'  V348 Pup_RG01,color='b',size=12,alpha=0.3)
+
+#From Steeghs01+07 (wd mass from gravitational redshift (S07) & q from RV (S01))
+plt.scatter(0.049,0.106,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.049,0.106,xerr=0.015,yerr=0.011,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.049,0.106,'  WZ Sge_S01/07',color='b',size=12,alpha=0.3)
+
+#From Echevarria08 (RV) -- Not included as expected to have evolved secondary
+#plt.scatter(0.37,0.780,marker='^',color='r',s=10,alpha=0.3)
+#plt.errorbar(0.37,0.780,xerr=0.04,yerr=0.028,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.37,0.780,'  AE Aqr_E08',color='b',size=12,alpha=0.3)
+
+#From Welsh07 (RV)
+plt.scatter(0.77,0.791,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.77,0.791,xerr=0.08,yerr=0.027,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.77,0.791,'  EM Cyg_W07',color='b',size=12,alpha=0.3)
+
+#From Thoroughgood04 (RV)
+plt.scatter(0.77,0.83,marker='^',color='b',s=10,alpha=0.3)
+plt.errorbar(0.77,0.83,xerr=0.05,yerr=0.02,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.77,0.83,'  AC Cnc_T04',color='b',size=12,alpha=0.3)
+'''
+
+
+### UNUSED SYSTEMS ###
+
+plt.scatter(0.129,0.169,marker='o',color='g',s=10)
+plt.errorbar(0.129,0.169,xerr=[[0.007],[0.008]],yerr=[[0.003],[0.003]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.129,0.169,'  OGLE 82',color='g',size=12)
+
+plt.scatter(0.155,0.213,marker='o',color='g',s=10)
+plt.errorbar(0.155,0.213,xerr=[[0.014],[0.026]],yerr=[[0.007],[0.011]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.155,0.213,'  ASASSN-15pb(GPs)',color='g',size=12)
+
+plt.scatter(0.182,0.188,marker='o',color='g',s=10)
+plt.errorbar(0.182,0.188,xerr=[[0.024],[0.016]],yerr=[[0.008],[0.005]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.182,0.188,'  MASOT0014(GPs)',color='g',size=12)
+
+plt.scatter(0.089,0.1312,marker='o',color='g',s=10)
+plt.errorbar(0.089,0.1312,xerr=[[0.004],[0.005]],yerr=[[0.0021],[0.0024]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.089,0.1312,'      SDSS 0903',color='g',size=12)
+
+plt.scatter(0.05198,0.1078,marker='o',color='g',s=10)
+plt.errorbar(0.05198,0.1078,xerr=[[0.0017],[0.0029]],yerr=[[0.0012],[0.0019]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.05198,0.1078,'  SDSS 1035',color='g',size=12)
+
+plt.scatter(0.0635,0.1112,marker='o',color='g',s=10)
+plt.errorbar(0.0635,0.1112,xerr=[[0.0013],[0.0019]],yerr=[[0.0007],[0.0011]],ls='none',color='g',capsize=3,linewidth=1)
+#plt.text(0.0635,0.1112,'  SDSS 1433',color='g',size=12)
+
+
+#From Smith06 (wd mass from gravitational redshift & q from epsilon) -- don't use
+#plt.scatter(0.11,0.166,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.11,0.166,xerr=0.03,yerr=0.015,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.11,0.166,'  VW Hyi',color='b',size=12,alpha=0.3)
+
+#From Yakin10 (RV & md from porb) -- don't use
+#plt.scatter(0.14,0.173,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.14,0.1733,xerr=0.02,yerr=0.008,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.14,0.1733'  1RXS J180834.7+101041',color='b',size=12,alpha=0.3)
+
+#From Mason&Howell05 (RV) (Error bars not given in paper) -- don't use
+#plt.scatter(0.17,0.193,marker='o',color='b',s=10,alpha=0.3)
+#plt.errorbar(0.17,0.193,xerr=0.05,0.019,yerr=,ls='none',color='b',capsize=3,linewidth=1,alpha=0.3)
+#plt.text(0.17,0.193,'  AY For',color='b',size=12,alpha=0.3)

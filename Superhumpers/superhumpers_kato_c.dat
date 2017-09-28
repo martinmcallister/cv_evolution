@@ -1,0 +1,40 @@
+# Porb (d) / Porb_err (d) / Psh (d) / Psh (d) 
+
+# Kato 2009
+0.080218 0.000070 0.084237 0.000049 #CTCV J0549/AR Pic (2006,K09,C,Q=B) # Porb from Tappert 2006
+0.07034 0.00019 0.071471 0.000023 #SDSS J0838 (2009,K09,C,Q=C) # Porb from Thorstensen 2015
+
+
+# Kato 2010
+0.06035 0.00003 0.061322 0.000026 #KX Aql (2010,K10,C,Q=B) # Porb from Thorstensen 2003
+0.0683 0.0008 0.070782 0.000083 #RX J1715 (2009,K10,C,Q=C) # Porb from Pretorius 2007
+0.067391 0.00013 0.069167 0.000033 #SDSS J1637/V2690 Oph (2004,K10,C,Q=C) # Porb from Southworth 2008
+0.05909 0.00001 0.060236 0.000040 #OT J1044/CSS100217 (2010,K10,C,Q=B) # Porb from K10
+
+
+# Kato 2012
+0.06630354 0.00000005 0.068110 0.000016 #SDSS J0932 (2011,K12,C,Q=B) # Porb from Shears 2012
+
+
+# Kato 2013
+# -- #
+
+
+# Kato 2014a
+# -- #
+
+
+# Kato 2014b
+# -- #
+
+
+## Kato 2015
+0.0748 0.0005 0.076973 0.000025 #LY Hya (2014,K15,C,Q=C) # Porb from Still 1994
+#0.065769292 0.000000002 0.067506 0.000242 #NSV 4618/SSS130413 (2015,K15,C,Q=C)
+
+
+# Kato 2016
+# -- #
+
+
+
