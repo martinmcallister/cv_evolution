@@ -32,7 +32,7 @@ def politano96(m2):
     return 4.488*(m2-0.4342)**1.364 - 1.0/3.0
 
 def qcrit(func):
-    m2v = np.linspace(0.01, 0.80, 1000)
+    m2v = np.linspace(0.01, 0.8, 1000)
     qcrit = []
     for m2 in m2v:
         psi_ad = -1.0/3.0 if m2 < 0.4342 else politano96(m2)
@@ -48,6 +48,9 @@ def qcrit(func):
 # Chandrasekhar limit
 m2_chand = np.arange(0,1.4,0.001)
 q_chand = m2_chand/1.44
+
+m2_low = np.arange(0,1.4,0.001)
+q_low = m2_low/0.15
 
 m2_av_mwd = np.arange(0,1.4,0.001)
 q_av_mwd = m2_av_mwd/0.812
@@ -66,7 +69,7 @@ seaborn.set_style({"xtick.direction": "in","ytick.direction": "in"})
 #plt.rcParams['ytick.major.pad']='10'
 
 #plt.axis([0,1.201,0,1.201])
-#plt.axis([0.1,1.1,0.1,1.401])
+#plt.axis([0.05,1.1,0.05,1.401])
 
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1)
@@ -423,12 +426,16 @@ plt.errorbar(1.06,1.17,xerr=0.11,yerr=0.07,ls='none',color='b',capsize=3,linewid
 
 
 plt.plot(m2_chand,q_chand,c='k',linewidth=1,alpha=0.5)
+plt.plot(m2_low,q_low,c='k',linewidth=1,alpha=0.5)
+
 plt.plot(m2_av_mwd,q_av_mwd,linestyle='dashed',color='k',linewidth=1,alpha=0.5)
 
 plt.plot(m2_ecaml,qc_ecaml,c='k',linewidth=1,alpha=0.5)
 
-plt.fill_between(m2_chand, 0, q_chand, color='k', alpha=0.2)#, hatch='x')
+plt.fill_between(m2_chand, 0, q_chand, color='k', alpha=0.45)#, hatch='x')
+plt.fill_between(m2_low, q_low, 100, color='k', alpha=0.3)#, hatch='+')
 plt.fill_between(m2_ecaml, 100, qc_ecaml, color='k', alpha=0.2)#, hatch='x')
+
 
 #plt.plot(m2_cons_1,q_cons_1,c='k',linewidth=1,alpha=0.5)
 #plt.plot(m2_cons_2,q_cons_2,c='k',linewidth=1,alpha=0.5)
