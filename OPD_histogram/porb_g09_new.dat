@@ -1,4 +1,4 @@
-# Porbs for new SDSS systems from Kato & data archive with porb < 130 mins and errors < 1 min
+# Porbs for new SDSS systems from Kato, data archive and elsewhere with porb < 130 mins and errors < 1 min
 
 # "New" SDSS CVs
 
@@ -24,6 +24,9 @@
 0.0583110901 0.0000000007 0.05958 0.00030 #SDSS J074859 (2015,K16,B,Q=C) # Porb from K16 (Selected from spectra by Wils 2010)
 0.0529848892 0.00000000011 #PHL 1445  (Selected from 6dFGS spectra by Wils 2009)
 0.0660508707 0.00000000018 #CSS110113 (Selected from 6dFGS spectra by Wils 2009)
+
+0.070592 0.000004 #SDSS 1344 # Porb from Thorstensen 2017
+0.0810 0.0003 #SDSS 1557 # Porb from Thorstensen 2017
 
 
 # "Old" SDSS CVs

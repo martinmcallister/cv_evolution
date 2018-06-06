@@ -5,8 +5,8 @@ import seaborn
 import scipy.optimize as opt
 from astropy import units as u
 
-porb_kato_days = np.loadtxt('Superhumpers/superhumpers_kato_esh.dat',dtype=float,usecols = [0]) 
-porb_kato_days_err = np.loadtxt('Superhumpers/superhumpers_kato_esh.dat',dtype=float,usecols = [1])
+porb_kato_days = np.loadtxt('../Superhumpers/superhumpers_kato_esh.dat',dtype=float,usecols = [0]) 
+porb_kato_days_err = np.loadtxt('../Superhumpers/superhumpers_kato_esh.dat',dtype=float,usecols = [1])
 
 porb_ecl_days = np.loadtxt('porb_eclipsers.dat',dtype=float,usecols = [0]) 
 porb_ecl_days_err = np.loadtxt('porb_eclipsers.dat',dtype=float,usecols = [1])
@@ -29,9 +29,9 @@ porb_new_no_esh = porb_g09_new_mins[0:67]
 porb_sdss_no_esh = np.concatenate((porb_g09_mins,porb_g09_new_mins[0:67]))
 porb_sdss_esh = porb_g09_new_mins[67:]
 
-porb_sdss_new = np.concatenate((porb_g09_mins[0:49],porb_g09_new_mins[0:21]))
+porb_sdss_new = np.concatenate((porb_g09_mins[0:49],porb_g09_new_mins[0:23]))
 porb_sdss_new_g09 = porb_g09_mins[0:49]
-porb_sdss_old = np.concatenate((porb_g09_mins[49:],porb_g09_new_mins[21:]))
+porb_sdss_old = np.concatenate((porb_g09_mins[49:],porb_g09_new_mins[23:]))
 
 
 # G09 sample = 82 systems < porb=130 mins
@@ -160,7 +160,7 @@ ax2 = ax1.twinx()
 ax2.set_xlim([65,129])
 # plot the cumulative function
 #ax2.plot(base_g09[:-1], cumulative_g09/49.0, c='g',alpha=1,linewidth=1.2)
-ax2.plot(base_new[:-1], cumulative_new/70.0, c='b',alpha=1,linewidth=1.2)
+ax2.plot(base_new[:-1], cumulative_new/72.0, c='b',alpha=1,linewidth=1.2)
 #ax2.plot(base_gauss[:-1], (cumulative_gauss/23300.0)+0.014, c='orange',alpha=1,linewidth=1.2,linestyle='dashed')
 ax2.set_ylabel(r'$N_{\rm sys}$ / $\Sigma(N_{\rm sys})$', fontsize=15)
 ax2.set_ylim([0,1])

@@ -67,7 +67,7 @@
 0.05533887  0.00000002   #SDSS 1307 (EV UMa) (Polar)
 0.06435     0.00012      #SDSS 1343 (HW Boo)
 0.07879785  0.00000007   #SDSS 1552 (MR Ser) (Polar)
-0.0831611   0.0000014    #SDSS 1556 (QZ Ser)
+0.08316078  0.00000007   #SDSS 1556 (QZ Ser)  # Porb from Thorstensen 2017
 0.082417 0.000028  #BG Ari/PG 0149/SDSS J01515  # Porb from Shears 2011
 0.07352 0.00005 #CC Cnc  # Porb from Thorstensen 1997
 0.056815 0.000001  #SW UMa  # Porb from Howell 1988
@@ -81,7 +81,7 @@
 0.06957 0.00004   #CY UMa  # Porb from Thorstensen 1996
 0.06325 0.00010  #RX 1131/MR UMa # Porb from Thorstensen 2015
 0.07603005 0.00000002  #RZ Leo  # Porb from K16
-0.058819 0.000005  #T Leo/QZ Vir  # Porb from Shafter 1984
+0.05882047 0.00000007 #T Leo/QZ Vir  # Porb from Thorstensen 2017
 0.062605 0.000011  #BC UMa  # Porb from Patterson 2003
 0.072706113 0.000000005 #OU Vir
 0.074572 0.000001  #QW Ser  # Porb from K14a
