@@ -1,0 +1,64 @@
+# q / pos q_err / neg q_err
+
+# Eclipse modelling with GPs (from thesis chapters 5-7)
+
+0.093   0.007   0.007   #PHL 1445
+0.161   0.013   0.013   #ASASSN-14ag
+0.146   0.009   0.001   #IY UMa
+0.189   0.004   0.004   #Z Cha
+0.114   0.005   0.005   #CSS080623
+0.182   0.009   0.004   #SDSS 0901
+0.172   0.002   0.007   #DV UMa
+0.233   0.004   0.004   #CTCV 1300
+0.1065  0.0009  0.0029  #OY Car
+0.169   0.011   0.006   #SSS130413
+0.105   0.005   0.005   #CSS110113
+0.095   0.003   0.003   #SSS100615
+0.153   0.015   0.011   #SDSS 1152
+0.0546  0.0020  0.0020  #SDSS 1057
+0.46    0.03    0.03    #SDSS 1006
+0.448   0.014   0.021   #GY Cnc
+0.246   0.006   0.014   #V713 Cep
+0.084   0.004   0.004   #SDSS 1501
+
+
+# IN LITERATURE
+
+# HIGH TIME RESOLUTION ECLIPSE MODELLING
+
+0.0661  0.0007  0.0007  #SDSS 1433    (Savoury+ 2011)
+0.0647  0.0018  0.0018  #SDSS 1507    (Savoury+ 2011)
+0.0571  0.0010  0.0010  #SDSS 1035    (Savoury+ 2011)
+0.1097  0.0008  0.0008  #CTCV 2354    (Savoury+ 2011)
+0.113   0.004   0.004   #SDSS 0903    (Savoury+ 2011)
+0.1115  0.0016  0.0016  #SDSS 1227    (Savoury+ 2011)
+0.118   0.003   0.003   #XZ Eri       (Savoury+ 2011)
+0.1099  0.0007  0.0007  #SDSS 1502    (Savoury+ 2011)
+0.1641  0.0013  0.0013  #OU Vir       (Savoury+ 2011)
+0.248   0.005   0.005   #SDSS 1702    (Savoury+ 2011)
+0.75    0.05    0.05    #EX Dra       (Shafter+ 2003)   
+0.570   0.011   0.011   #KIS J1927    (Littlefair+ 2014)
+0.48    0.01    0.01    #IP Peg       (Copperwheat+ 2010)
+0.236   0.006   0.006   #CSS111003    (Miszalski+ 2016)
+0.54    0.03    0.03    #HS 0220+0603 (Rodriguez-gil+ 2015)
+0.80    0.02    0.02    #1RXS J0644   (Hernandez+ 2017)
+
+# CONTACT PHASE TIMING
+
+0.15    0.03    0.03    #HT Cas       (Horne+ 1991)
+0.19    0.03    0.03    #V2051 Oph    (Baptista+ 2003)
+0.125   0.015   0.015   #V4140 Sgr    (Borges+ 2005)
+0.28    0.04    0.04    #DW UMa       (Araujo-Betancour+ 2003)
+0.30    0.07    0.07    #UU Aqr       (Baptista+ 1994)
+
+# RADIAL VELOCITY
+
+0.13    0.02    0.02    #EX Hya       (Echavarria+ 2016)
+0.35    0.05    0.05    #U Gem        (Echavarria+ 2007)
+0.66    0.04    0.04    #DQ Her       (Horne+ 1993)
+0.83    0.05    0.05    #V347 Pup     (Thoroughgood+ 2005)
+0.24    0.05    0.05    #V603 Aql     (Arenas+ 2000)
+0.31    0.06    0.06    #V348 Pup     (Rodriguez-gil+ 2001)
+0.057   0.018   0.018   #WZ Sge       (Steeghs+ 2001)
+0.77    0.04    0.04    #EM Cyg       (Welsh+ 2007)
+1.02    0.04    0.04    #AC Cnc       (Thoroughgood+ 2004)
